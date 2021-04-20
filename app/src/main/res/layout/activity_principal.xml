@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding ="10dp"
+    tools:context=".PrincipalActivity">
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Introduzca un usuario" />
+
+    <EditText
+        android:id="@+id/contrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario"
+        android:layout_marginTop="50dp"
+        android:hint="Introduzca su contraseña" />
+
+    <EditText
+        android:id="@+id/contrasenya2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contrasenya"
+        android:layout_marginTop="50dp"
+        android:hint="Vuelva a introducir su contraseña" />
+
+    <Button
+        android:id="@+id/btnregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/contrasenya2"/>
+
+    <Button
+        android:id="@+id/btninicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesion"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnregistro"/>
+
+
+</RelativeLayout>
